@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="MIS._23.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="MIS._23.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -10,6 +10,9 @@
             text-align: center;
             font-size: larger;
             color: #6666FF;
+            width: 1373px;
+            height: 535px;
+            margin-bottom: 183px;
         }
         .auto-style2 {
             width: 1030px;
@@ -30,7 +33,7 @@
         }
     </style>
 </head>
-<body style="height: 424px">
+<body style="height: 551px">
     <form id="form2" runat="server">
         <div class="auto-style1">
             <em><strong>R</strong></em><strong><em>egistration page</em><table class="auto-style2">
