@@ -5,7 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.OleDb;
-using System.Configuration;
+using System.Data.configuration;
+
 
 
 namespace MIS._23
@@ -21,9 +22,16 @@ namespace MIS._23
         {
 
             OleDbConnection f = new OleDbConnection(ConfigurationManager.ConnectionStrings["test"].ConnectionString);
-            OleDbCommand cmd = new OleDbCommand("insert into [user]([username],[password],[conpassword],[email])values ('" + name.Text + "','" + password.Text + "','" + conpassword.Text + "','" + email.Text + "')", connection: f);
+            OleDbC;
+            Response.Write("data inserted succefully");
+            Response.Redirect("update.aspx");
+            
+          OleDbCommand cmd = new OleDbCommand("insert into [user]([username],[password],[conpassword],[email])values ('" + name.Text + "','" + password.Text + "','" + conpassword.Text + "','" + email.Text + "')", connection: f);
             f.Open();
             cmd.ExecuteNonQuery();
+            Response.Write("data inserted succefully");
+            Response.Redirect("update.aspx")
+
             f.Close();
         }
     }
