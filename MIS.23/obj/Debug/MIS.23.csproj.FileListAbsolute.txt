@@ -146,7 +146,3 @@ C:\Users\doaa\Source\Repos\shadaelhakeim\MIS.PROJECT\MIS.23\obj\Debug\MIS.23.csp
 C:\Users\doaa\Source\Repos\shadaelhakeim\MIS.PROJECT\MIS.23\obj\Debug\MIS.23.csproj.CopyComplete
 C:\Users\doaa\Source\Repos\shadaelhakeim\MIS.PROJECT\MIS.23\obj\Debug\MIS.23.dll
 C:\Users\doaa\Source\Repos\shadaelhakeim\MIS.PROJECT\MIS.23\obj\Debug\MIS.23.pdb
-C:\Users\micro\source\repos\shadaelhakeim\MIS.PROJECT\MIS.23\obj\Debug\MIS.23.csproj.AssemblyReference.cache
-C:\Users\micro\source\repos\shadaelhakeim\MIS.PROJECT\MIS.23\obj\Debug\MIS.23.csproj.CoreCompileInputs.cache
-C:\Users\micro\source\repos\shadaelhakeim\MIS.PROJECT\MIS.23\obj\Debug\MIS.23.dll
-C:\Users\micro\source\repos\shadaelhakeim\MIS.PROJECT\MIS.23\obj\Debug\MIS.23.pdb
