@@ -24,6 +24,7 @@ namespace MIS._23
             OleDbCommand cmd = new OleDbCommand("insert into [user]([username],[password],[conpassword],[email])values ('" + name.Text + "','" + password.Text + "','" + conpassword.Text + "','" + email.Text + "')", connection: f);
             f.Open();
             cmd.ExecuteNonQuery();
+            Response.Redirect("Hospital page.aspx");
             f.Close();
         }
     }
