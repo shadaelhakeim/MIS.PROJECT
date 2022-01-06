@@ -18,6 +18,7 @@ namespace MIS._23
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            Response.Redirect("Hospital page.aspx");
             OleDbConnection f = new OleDbConnection(ConfigurationManager.ConnectionStrings["test"].ConnectionString);
             OleDbCommand cmd = new OleDbCommand("select count(*) from [user] where[email]='" + loginmail.Text + "'", f);
             f.Open();
@@ -39,6 +40,8 @@ namespace MIS._23
             {
                 Response.Write("email is not found");
             }
+            
+
             f.Close();
         }
     }

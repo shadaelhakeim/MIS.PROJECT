@@ -11,7 +11,7 @@ namespace MIS._23
 {
 
 
-    public partial class Login_Page
+    public partial class Update
     {
 
         /// <summary>
@@ -24,48 +24,48 @@ namespace MIS._23
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// loginmail control.
+        /// name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox loginmail;
+        protected global::System.Web.UI.WebControls.TextBox name;
 
         /// <summary>
-        /// RequiredFieldValidator1 control.
+        /// pass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.TextBox pass;
 
         /// <summary>
-        /// loginpass control.
+        /// upd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox loginpass;
+        protected global::System.Web.UI.WebControls.Button upd;
 
         /// <summary>
-        /// RequiredFieldValidator2 control.
+        /// del control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        protected global::System.Web.UI.WebControls.Button del;
 
         /// <summary>
-        /// Button1 control.
+        /// vie control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button vie;
     }
 }

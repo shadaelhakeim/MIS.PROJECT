@@ -35,6 +35,7 @@
                 <td class="auto-style3">Password</td>
                 <td class="auto-style2">
                     <asp:TextBox ID="loginpass" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="loginpass" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
