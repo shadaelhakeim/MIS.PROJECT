@@ -23,12 +23,14 @@
                     <td>Doctor Name</td>
                     <td>
                         <asp:TextBox ID="Name" runat="server"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" BorderColor="#FF6600" ErrorMessage="Please Enter Your Doctor Name"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
                     <td>Patient Name </td>
                     <td>
                         <asp:TextBox ID="Auth" runat="server"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="please enter patient name"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
@@ -47,6 +49,7 @@
                     <td>Doctor&#39;s specialty</td>
                     <td>
                         <asp:TextBox ID="Price" runat="server"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="please enter The specialty"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
